@@ -10,9 +10,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{05858F76-907
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A3E44A7E-9204-4C8B-B6AC-E3E922844021}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Custom", "Custom", "{299A1EA3-0685-4748-A3D1-476BAAA7EFB2}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{299A1EA3-0685-4748-A3D1-476BAAA7EFB2} = {A3E44A7E-9204-4C8B-B6AC-E3E922844021}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4CBDF22C-00F0-4D34-AE18-281B183E8813}
